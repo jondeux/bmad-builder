@@ -1,0 +1,65 @@
+# Greptile
+
+- [Overview - What is Greptile?](https://www.greptile.com/docs/introduction.md)
+- [5-Minute Quickstart](https://www.greptile.com/docs/quickstart.md): Set up Greptile AI code reviews in 5 minutes. Connect GitHub or GitLab, configure review triggers, and get automated feedback on your first pull request.
+- [CLI Onboarding](https://www.greptile.com/docs/code-review/cli-onboarding.md): Set up Greptile from your terminal with greptile onboard — or hand this page to your coding agent and have it run the setup for you.
+- [Key Features](https://www.greptile.com/docs/code-review/key-features.md): Discover Greptile's key features: full codebase context, high-signal reviews, team learning, IDE integration via MCP, and enterprise-grade deployment options.
+- [Troubleshooting Common Issues](https://www.greptile.com/docs/troubleshooting/common-issues.md): Solutions to frequent problems with Greptile setup and configuration
+- [Anatomy of a Review](https://www.greptile.com/docs/code-review/first-pr-review.md): Understand every component of a Greptile code review: PR summaries, confidence scores, inline comments, suggested fixes, and diagrams explained.
+- [Review pull requests](https://www.greptile.com/docs/code-review/review-interface.md): Use Tour, Full diff, Chat with PR, and keyboard shortcuts to review pull requests in Greptile.
+- [Developer Essentials](https://www.greptile.com/docs/code-review/developer-essentials.md): Essential guide for developers using Greptile: trigger reviews with @greptileai, train the AI with reactions, ask follow-up questions, and troubleshoot issues.
+- [Customization Overview](https://www.greptile.com/docs/code-review/customization-overview.md): Three ways to customize Greptile — .greptile/ folders, greptile.json, and the Dashboard UI
+- [.greptile/ Configuration](https://www.greptile.com/docs/code-review/greptile-config.md): Directory-scoped review configuration with cascading inheritance
+- [.greptile/ File Reference](https://www.greptile.com/docs/code-review/greptile-config-reference.md): Complete schema reference for config.json, rules.md, and files.json
+- [Controlling Nitpickiness](https://www.greptile.com/docs/code-review/controlling-nitpickiness.md): Configure Greptile's review strictness, filter comment types, ignore files, and configure triggers. Get high-signal code reviews without the noise.
+- [Review Tiers](https://www.greptile.com/docs/code-review/review-tiers.md): Choose how much work Greptile puts into each review. Set a tier for the organization, override it per repository or directory, or let Greptile pick per PR.
+- [Auto-approve PRs](https://www.greptile.com/docs/code-review/auto-approve-prs.md): Let Greptile approve low-risk, bug-free PRs after a clean 5/5 review.
+- [Training the Learning System](https://www.greptile.com/docs/code-review/training-the-learning-system.md): Train Greptile with emoji reactions and feedback to improve code review relevance. Learn how thumbs up/down signals teach what matters to your team.
+- [Cross Repo Context](https://www.greptile.com/docs/code-review/cross-repo-context.md): Create Repo Clusters so Greptile can read related repositories as context during reviews.
+- [Custom Standards & Rules](https://www.greptile.com/docs/code-review/custom-standards.md): Create custom rules, upload style guides, and configure repository-specific standards via greptile.json. Enforce your team's coding practices automatically.
+- [greptile.json Reference](https://www.greptile.com/docs/code-review/greptile-json-reference.md): Complete greptile.json reference with all configuration parameters. Control review behavior, PR filters, file patterns, custom context, and output formatting.
+- [Configure with greptile.json (Perforce)](https://www.greptile.com/docs/code-review/greptile-json-perforce.md): Configure Greptile settings for Perforce depots.
+- [Greptile CLI](https://www.greptile.com/docs/code-review/greptile-cli.md): Run local code reviews and manage Greptile from your terminal.
+- [MCP Overview](https://www.greptile.com/docs/mcp/overview.md): Use Greptile's MCP server to access code review tools directly in Claude, Cursor, VS Code, or Codex CLI. Fetch comments, apply fixes, read repository knowledge bases, and manage coding patterns.
+- [IDE Setup](https://www.greptile.com/docs/mcp/setup.md): Connect Cursor, Claude Code, VS Code, or Codex to Greptile MCP with OAuth.
+- [Auto-Fix Workflow](https://www.greptile.com/docs/mcp/auto-fix.md): Fix Greptile code review comments directly from your IDE using MCP tools. Fetch unaddressed issues, apply suggested fixes, and track resolution progress.
+- [Agent Skills](https://www.greptile.com/docs/mcp/skills.md): Automated Claude Code skills for fixing PR review comments and iterating to a perfect Greptile score.
+- [Custom Context](https://www.greptile.com/docs/mcp/custom-context.md): View, search, and create coding standards from your IDE using Greptile's MCP tools. Turn recurring review feedback into enforceable team patterns.
+- [Reports & Analytics](https://www.greptile.com/docs/mcp/reports.md): Generate code review reports and analytics using MCP tools. Track PR status, weekly summaries, team metrics, and review completion rates from your IDE.
+- [Tools Reference](https://www.greptile.com/docs/mcp/tools.md): Complete API reference for Greptile's MCP tools. Documentation for account discovery, PR management, code reviews, comment search, custom context, and knowledge base endpoints with examples.
+- [Tips & Recipes](https://www.greptile.com/docs/code-review/tips-recipes.md): Practical Greptile recipes from real teams: local reviews, RFC feedback, multi-language support, security-focused reviews, and draft PR workflows.
+- [Code providers](https://www.greptile.com/docs/integrations/code-providers.md): Connect GitHub, GitLab, Bitbucket, Cursor Origin, Gitea, or Perforce to Greptile.
+- [Jira Integration](https://www.greptile.com/docs/integrations/jira.md): Connect Atlassian so Greptile reviews pull requests against related Jira tickets and Confluence pages
+- [Linear Integration](https://www.greptile.com/docs/integrations/linear.md): Connect Linear so Greptile reviews pull requests against related issues
+- [Claude Code Plugin](https://www.greptile.com/docs/integrations/claude-code.md): Install and use the Greptile plugin for Claude Code
+- [Codex Plugin](https://www.greptile.com/docs/integrations/codex.md): Install and use the Greptile plugin for Codex
+- [Fix with your Agent](https://www.greptile.com/docs/integrations/fix-with-your-agent.md): One-click fix for Greptile review comments. Send issues directly to Claude Code, Codex, Conductor, Cursor, or Devin.
+- [TREX](https://www.greptile.com/docs/trex/overview.md): TREX is an end-to-end testing agent.
+- [Environments](https://www.greptile.com/docs/trex/environments.md): Tell TREX how to run your services
+- [Custom flows](https://www.greptile.com/docs/trex/custom-flows.md): Write the user journeys TREX should test, step by step, with the checks that prove they work.
+- [Results](https://www.greptile.com/docs/trex/results.md): Read the TREX comment on a pull request and watch the recording behind each result.
+- [Troubleshooting](https://www.greptile.com/docs/trex/troubleshooting.md): Fix the common reasons TREX doesn't run, can't start your app, or skips a flow.
+- [Self-Hosted Greptile](https://www.greptile.com/docs/self-hosting/self-hosted-greptile.md): Deploy Greptile in your own infrastructure with Docker Compose. Supports AWS, GCP, Azure, air-gapped environments, and custom LLM configurations.
+- [Deployment Options](https://www.greptile.com/docs/self-hosting/deployment-options.md): Compare Greptile cloud vs self-hosted deployment options. Learn about Docker Compose and Kubernetes setups, server sizing, and LLM provider requirements.
+- [System Architecture](https://www.greptile.com/docs/self-hosting/system-architecture.md): Detailed system architecture for self-hosted Greptile deployments. Covers Docker Compose and Kubernetes services, data flow, networking, and security.
+- [Docker Compose Overview](https://www.greptile.com/docs/self-hosting/docker-compose/overview.md): Deploy Greptile using Docker Compose on a single Linux server. Ideal for teams up to 100 developers with automated AWS Terraform or manual setup options.
+- [AWS Terraform Deployment](https://www.greptile.com/docs/self-hosting/docker-compose/aws-terraform.md): Deploy Greptile on AWS with Terraform automation. One command creates VPC, EC2, RDS PostgreSQL, ElastiCache Redis, and bootstraps the full stack.
+- [Manual Setup](https://www.greptile.com/docs/self-hosting/docker-compose/manual-setup.md): Step-by-step guide to deploy Greptile on any Linux server using Docker Compose. Supports AWS, GCP, Azure, on-prem, and air-gapped environments.
+- [Kubernetes Deployment](https://www.greptile.com/docs/self-hosting/kubernetes.md): Deploy Greptile on Kubernetes with the akupara Helm chart. Enterprise-grade setup for 100+ developers with high availability and horizontal scaling.
+- [CLI Reviews on Self-Hosted Greptile](https://www.greptile.com/docs/self-hosting/cli-reviews.md): Run Greptile CLI code reviews against a fully on-premises deployment
+- [SSO/SAML](https://www.greptile.com/docs/self-hosting/sso.md): Configure enterprise SSO with SAML for self-hosted Greptile using BoxyHQ Jackson. Step-by-step setup for IdP integration and organization access.
+- [Organizations & Teams](https://www.greptile.com/docs/account/team-setup-basics.md): Manage your Greptile organization: navigate the org/team hierarchy, invite members, assign roles, sync settings, and configure team-level access.
+- [Organization Settings](https://www.greptile.com/docs/account/organization-settings.md): Manage your organization's name, handle, Enterprise SSO, permissions and roles, data sharing, feature tips, and deletion from Settings → Organization.
+- [SSO & Identity](https://www.greptile.com/docs/account/sso-and-identity.md): Connect your organization to your identity provider to control how members authenticate and who can access Greptile. Available on Enterprise.
+- [Analytics Dashboard](https://www.greptile.com/docs/account/analytics.md): Track code review metrics across your organization: PRs reviewed, merge times, addressed rates, bugs caught, and upvote/downvote ratios.
+- [Billing](https://www.greptile.com/docs/account/billing-seats.md): Greptile bills in prepaid credits. See what credits cost, what each review costs, and how to buy them.
+- [Network Rules](https://www.greptile.com/docs/account/network-rules.md): IP ranges for Greptile cloud. Required when your code host blocks public internet access.
+- [Graph-based Codebase Context](https://www.greptile.com/docs/how-greptile-works/graph-based-codebase-context.md): Learn how Greptile builds a complete codebase graph to understand function relationships, dependencies, and patterns for smarter, context-aware code reviews.
+- [Memory and Learning](https://www.greptile.com/docs/how-greptile-works/memory-and-learning.md): How Greptile learns from your codebase, team preferences, and feedback to provide increasingly relevant suggestions
+- [Custom Rules](https://www.greptile.com/docs/how-greptile-works/custom-rules.md): Define custom rules to enforce your organization's coding standards, security requirements, and best practices automatically across all pull requests.
+- [Knowledge Base](https://www.greptile.com/docs/how-greptile-works/knowledge-bases.md): Greptile builds a living knowledge base of your codebase - architecture, flows, and conventions - that is used to enhance the review.
+- [Reducing Nitpicks](https://www.greptile.com/docs/how-greptile-works/nitpicks.md): Discover how Greptile automatically learns to filter nitpicky style comments and focus on critical bugs, security issues, and logic errors that matter most.
+- [Changelog](https://www.greptile.com/docs/changelog.md): The latest updates and improvements to Greptile
+
+
+This documentation is built and hosted on [Mintlify](https://mintlify.com), a developer documentation platform.
